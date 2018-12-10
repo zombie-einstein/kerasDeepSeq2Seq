@@ -13,4 +13,4 @@ the different modes of behaviour in the training and prediction phases.
 
 I've overcome this by copying the decoder network at prediction time with the appropriate changes
 changes made to allow for the feedback of states and update steps (this would be 
-somewhat easier if there was the ability to update flags like 'stateful'). 
+somewhat easier if there was the ability to update flags (like 'stateful') dynamically). 
